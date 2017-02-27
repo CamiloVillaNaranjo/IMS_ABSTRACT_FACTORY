@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 14.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2017-02-27T17:55:20" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2017-02-27T17:55:20" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2017-02-27T17:55:20" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-02-27T17:55:20" Importance="Diagnostic" Text="ProjectPath = ..\AbstractFactoryModelingLib\AbstractFactoryModelingLib.csproj" />
+  <Message Timestamp="2017-02-27T17:55:20" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-02-27T17:55:20" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-02-27T17:55:20" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-02-27T17:55:20" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-02-27T17:55:20" Importance="Medium" Text="AbstractFactoryModeling's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'AbstractFactoryModeling::AnimalKingdom' -  (Class), 'AbstractFactoryModeling::Herbivore' -  (Class), 'AbstractFactoryModeling::ContinentFactory' -  (Class), 'AbstractFactoryModeling::Wildebeest' -  (Class), 'AbstractFactoryModeling::Bison' -  (Class), 'AbstractFactoryModeling::AfricanFactory' -  (Class), 'AbstractFactoryModeling::AmericaFactory' -  (Class), 'AbstractFactoryModeling::Carnivore' -  (Class), 'AbstractFactoryModeling::Lion' -  (Class), 'AbstractFactoryModeling::Wolf' -  (Class) " />
+  <Message Timestamp="2017-02-27T17:55:20" Importance="Medium" Text="'AbstractFactoryModeling::AnimalKingdom' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\GeneratedCode\AnimalKingdom.cs" />
+  <Message Timestamp="2017-02-27T17:55:21" Importance="Medium" Text="'AbstractFactoryModeling::Herbivore' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\GeneratedCode\Herbivore.cs" />
+  <Message Timestamp="2017-02-27T17:55:21" Importance="Medium" Text="'AbstractFactoryModeling::ContinentFactory' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\GeneratedCode\ContinentFactory.cs" />
+  <Message Timestamp="2017-02-27T17:55:21" Importance="Medium" Text="'AbstractFactoryModeling::Wildebeest' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\GeneratedCode\Wildebeest.cs" />
+  <Message Timestamp="2017-02-27T17:55:21" Importance="Medium" Text="'AbstractFactoryModeling::Bison' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\GeneratedCode\Bison.cs" />
+  <Message Timestamp="2017-02-27T17:55:21" Importance="Medium" Text="'AbstractFactoryModeling::AfricanFactory' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\GeneratedCode\AfricanFactory.cs" />
+  <Message Timestamp="2017-02-27T17:55:21" Importance="Medium" Text="'AbstractFactoryModeling::AmericaFactory' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\GeneratedCode\AmericaFactory.cs" />
+  <Message Timestamp="2017-02-27T17:55:21" Importance="Medium" Text="'AbstractFactoryModeling::Carnivore' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\GeneratedCode\Carnivore.cs" />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Medium" Text="'AbstractFactoryModeling::Lion' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\GeneratedCode\Lion.cs" />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Medium" Text="'AbstractFactoryModeling::Wolf' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\GeneratedCode\Wolf.cs" />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="ProjectPath = ..\AbstractFactoryModelingLib\AbstractFactoryModelingLib.csproj" />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Medium" Text="AbstractFactoryModeling's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'AbstractFactoryModeling::AnimalKingdom' -  (Class), 'AbstractFactoryModeling::Herbivore' -  (Class), 'AbstractFactoryModeling::ContinentFactory' -  (Class), 'AbstractFactoryModeling::Wildebeest' -  (Class), 'AbstractFactoryModeling::Bison' -  (Class), 'AbstractFactoryModeling::AfricanFactory' -  (Class), 'AbstractFactoryModeling::AmericaFactory' -  (Class), 'AbstractFactoryModeling::Carnivore' -  (Class), 'AbstractFactoryModeling::Lion' -  (Class), 'AbstractFactoryModeling::Wolf' -  (Class) " />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="'AbstractFactoryModeling::AnimalKingdom' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="'AbstractFactoryModeling::Herbivore' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="'AbstractFactoryModeling::ContinentFactory' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="'AbstractFactoryModeling::Wildebeest' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="'AbstractFactoryModeling::Bison' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="'AbstractFactoryModeling::AfricanFactory' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="'AbstractFactoryModeling::AmericaFactory' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="'AbstractFactoryModeling::Carnivore' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="'AbstractFactoryModeling::Lion' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-27T17:55:22" Importance="Diagnostic" Text="'AbstractFactoryModeling::Wolf' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="The selection included 12 elements which were not bound to a template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'AbstractFactoryModeling::' -  (Association): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'0f347e68-64e6-47d3-847f-3a9f5945daca' -  (Generalization): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'42196625-c2e2-460f-8440-7b04fa289677' -  (Generalization): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'a31569b5-8d38-49b6-a8c9-e9d56e8533de' -  (Generalization): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'82b3448e-a0ff-463d-bdff-52c82e10fadb' -  (Generalization): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'AbstractFactoryModeling::' -  (Association): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'AbstractFactoryModeling::' -  (Dependency): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'AbstractFactoryModeling::' -  (Dependency): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'62151075-8391-449e-acec-2c2c5732f29d' -  (Generalization): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'e28e5ebc-dc93-4281-bd4f-39e68647f400' -  (Generalization): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'AbstractFactoryModeling::' -  (Dependency): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="Diagnostic" Text="'AbstractFactoryModeling::' -  (Dependency): no bound template." />
+  <Message Timestamp="2017-02-27T17:55:23" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

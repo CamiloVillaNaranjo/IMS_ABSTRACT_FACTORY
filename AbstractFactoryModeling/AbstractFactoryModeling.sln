@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "AbstractFactoryModeling", "AbstractFactoryModeling\AbstractFactoryModeling.modelproj", "{DC667DF6-8C0B-4529-BB19-3A13F405C455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryModelingLib", "AbstractFactoryModelingLib\AbstractFactoryModelingLib.csproj", "{AE1BDB1C-2EBE-4A29-B735-B888015E54F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC667DF6-8C0B-4529-BB19-3A13F405C455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC667DF6-8C0B-4529-BB19-3A13F405C455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC667DF6-8C0B-4529-BB19-3A13F405C455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC667DF6-8C0B-4529-BB19-3A13F405C455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1BDB1C-2EBE-4A29-B735-B888015E54F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1BDB1C-2EBE-4A29-B735-B888015E54F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1BDB1C-2EBE-4A29-B735-B888015E54F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1BDB1C-2EBE-4A29-B735-B888015E54F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
