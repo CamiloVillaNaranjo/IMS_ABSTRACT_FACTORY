@@ -1,0 +1,2 @@
+D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\obj\Debug\AbstractFactoryModelingLib.exe
+D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\obj\Debug\AbstractFactoryModelingLib.pdb

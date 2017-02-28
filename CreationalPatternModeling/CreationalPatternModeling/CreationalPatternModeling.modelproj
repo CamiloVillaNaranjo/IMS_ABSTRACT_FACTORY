@@ -7,7 +7,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{dc667df6-8c0b-4529-bb19-3a13f405c455}</ProjectGuid>
     <ArchitectureToolsVersion>2.0.0.0</ArchitectureToolsVersion>
-    <Name>AbstractFactoryModeling</Name>
+    <Name>CreationalPatternModeling</Name>
     <RootNamespace>AbstractFactoryModeling</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -30,7 +30,7 @@
       <SubType>Content</SubType>
       <DependentUpon>AbstractFactory.classdiagram</DependentUpon>
     </Content>
-    <Content Include="ModelDefinition\AbstractFactoryModeling.uml">
+    <Content Include="ModelDefinition\CreationalPatternModeling.uml">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>

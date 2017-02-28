@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "AbstractFactoryModeling", "AbstractFactoryModeling\AbstractFactoryModeling.modelproj", "{DC667DF6-8C0B-4529-BB19-3A13F405C455}"
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "CreationalPatternModeling", "CreationalPatternModeling\CreationalPatternModeling.modelproj", "{DC667DF6-8C0B-4529-BB19-3A13F405C455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryModelingLib", "AbstractFactoryModelingLib\AbstractFactoryModelingLib.csproj", "{AE1BDB1C-2EBE-4A29-B735-B888015E54F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreationalPatternModelingLib", "CreationalPatternModelingLib\CreationalPatternModelingLib.csproj", "{AE1BDB1C-2EBE-4A29-B735-B888015E54F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

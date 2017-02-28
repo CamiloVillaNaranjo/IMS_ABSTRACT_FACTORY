@@ -53,7 +53,7 @@
           <propertyInstance
             Id="a992b54f-c4c7-4662-b6b1-df422ef9ebab"
             name="ProjectPath"
-            value="ClassTemplate=..\AbstractFactoryModelingLib\AbstractFactoryModelingLib.csproj|EnumTemplate=..\AbstractFactoryModelingLib\AbstractFactoryModelingLib.csproj|InterfaceTemplate=..\AbstractFactoryModelingLib\AbstractFactoryModelingLib.csproj|StructTemplate=..\AbstractFactoryModelingLib\AbstractFactoryModelingLib.csproj" />
+            value="ClassTemplate=..\CreationalPatternModelingLib\CreationalPatternModelingLib.csproj|EnumTemplate=..\CreationalPatternModelingLib\CreationalPatternModelingLib.csproj|InterfaceTemplate=..\CreationalPatternModelingLib\CreationalPatternModelingLib.csproj|StructTemplate=..\CreationalPatternModelingLib\AbstractFactoryModelingLib.csproj" />
         </stereotypeInstanceHasPropertyInstances>
         <stereotypeInstanceHasPropertyInstances
           Id="a1352a70-c001-4fc9-b63c-ed3b2b26d955">

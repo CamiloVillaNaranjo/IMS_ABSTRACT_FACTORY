@@ -1,5 +1,5 @@
+D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\bin\Debug\AbstractFactoryModelingLib.exe
 D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\bin\Debug\AbstractFactoryModelingLib.pdb
 D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\obj\Debug\AbstractFactoryModelingLib.csprojResolveAssemblyReference.cache
-D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\obj\Debug\AbstractFactoryModelingLib.pdb
-D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\bin\Debug\AbstractFactoryModelingLib.exe
 D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\obj\Debug\AbstractFactoryModelingLib.exe
+D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\obj\Debug\AbstractFactoryModelingLib.pdb
