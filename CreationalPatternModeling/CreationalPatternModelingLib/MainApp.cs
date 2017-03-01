@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AbstractFactoryModelingLib
+namespace CreationalPatterns
 {
     class MainApp
     {

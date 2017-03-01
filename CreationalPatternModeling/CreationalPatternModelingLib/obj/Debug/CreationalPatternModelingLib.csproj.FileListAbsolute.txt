@@ -1,2 +1,6 @@
 D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\obj\Debug\AbstractFactoryModelingLib.exe
 D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\obj\Debug\AbstractFactoryModelingLib.pdb
+D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\CreationalPatternModeling\CreationalPatternModelingLib\bin\Debug\CreationalPatterns.exe
+D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\CreationalPatternModeling\CreationalPatternModelingLib\bin\Debug\CreationalPatterns.pdb
+D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\CreationalPatternModeling\CreationalPatternModelingLib\obj\Debug\CreationalPatterns.exe
+D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\CreationalPatternModeling\CreationalPatternModelingLib\obj\Debug\CreationalPatterns.pdb
