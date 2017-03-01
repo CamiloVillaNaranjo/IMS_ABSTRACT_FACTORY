@@ -10,7 +10,7 @@ namespace BuilderModeling.BuilderScenario
 	public class Vehicle
 	{
 		private string _vehicleType;
-		private Dictionary<string, string> _parts;
+		private Dictionary<string, string> _parts = new Dictionary<string, string>();
 
         //Constructor
 		public Vehicle(string vehicleType)
