@@ -59,6 +59,14 @@
     <Compile Include="AbstractFactory\Lion.cs" />
     <Compile Include="AbstractFactory\Wildebeest.cs" />
     <Compile Include="AbstractFactory\Wolf.cs" />
+    <Compile Include="FactoryMethod\Document.cs" />
+    <Compile Include="FactoryMethod\EducationPage.cs" />
+    <Compile Include="FactoryMethod\ExperiencePage.cs" />
+    <Compile Include="FactoryMethod\ListPages.cs" />
+    <Compile Include="FactoryMethod\Page.cs" />
+    <Compile Include="FactoryMethod\Report.cs" />
+    <Compile Include="FactoryMethod\Resume.cs" />
+    <Compile Include="FactoryMethod\SkillsPage.cs" />
     <Compile Include="MainApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

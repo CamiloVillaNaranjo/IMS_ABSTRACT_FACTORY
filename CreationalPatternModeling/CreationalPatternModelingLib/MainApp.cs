@@ -1,23 +1,36 @@
-﻿using System;
+﻿using FactoryMethodModeling.FactoryMethod;
+using System;
 
-namespace AbstractFactoryModelingLib
+namespace FactoryMethodModeling
 {
+    /// <summary>
+    /// MainApp startup class for Real-World 
+    /// Factory Method Design Pattern.
+    /// </summary>
     class MainApp
     {
+        /// <summary>
+        /// Entry point into console application.
+        /// </summary>
         public static void Main()
         {
-            //Create and run the African animal world.
-            ContinentFactory africa = new AfricanFactory();
-            AnimalKingdom world = new AnimalKingdom(africa);
+            // Note: constructors call Factory Method
+            Document[] documents = new Document[2];
 
-            world.RunFoodChain();
+            documents[0] = new Resume();
+            documents[1] = new Report();
 
-            //Create and run the American anmal world.
-            ContinentFactory america = new AmericaFactory();
-            world = new AnimalKingdom(america);
-            world.RunFoodChain();
+            // Display document pages
+            foreach (Document document in documents)
+            {
+                Console.WriteLine("\n" + document.GetType().Name + "--");
+                foreach (Page page in document.Pages)
+                {
+                    Console.WriteLine(" " + page.GetType().Name);
+                }
+            }
 
-            //wait for user input
+            // Wait for user
             Console.ReadKey();
 
         }

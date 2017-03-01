@@ -7,7 +7,7 @@
       <Entity type="Class">
         <Name>Page</Name>
         <Access>Public</Access>
-        <Location left="402" top="353" />
+        <Location left="370" top="212" />
         <Size width="162" height="89" />
         <Collapsed>False</Collapsed>
         <Modifier>Abstract</Modifier>
@@ -15,7 +15,7 @@
       <Entity type="Class">
         <Name>SkillsPage</Name>
         <Access>Public</Access>
-        <Location left="117" top="382" />
+        <Location left="85" top="241" />
         <Size width="162" height="216" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -23,7 +23,7 @@
       <Entity type="Class">
         <Name>EducationPage</Name>
         <Access>Public</Access>
-        <Location left="117" top="308" />
+        <Location left="85" top="167" />
         <Size width="162" height="216" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -31,7 +31,7 @@
       <Entity type="Class">
         <Name>ExperiencePage</Name>
         <Access>Public</Access>
-        <Location left="117" top="451" />
+        <Location left="85" top="310" />
         <Size width="162" height="216" />
         <Collapsed>True</Collapsed>
         <Modifier>None</Modifier>
@@ -39,10 +39,30 @@
       <Entity type="Class">
         <Name>Document</Name>
         <Access>Public</Access>
-        <Location left="695" top="228" />
+        <Location left="370" top="439" />
+        <Size width="162" height="146" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private List&lt;Page&gt; _pages</Member>
+        <Member type="Constructor">public Document()</Member>
+        <Member type="Property">public List&lt;Page&gt; Pages { get; }</Member>
+        <Member type="Method">public abstract void CreatePages()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Resume</Name>
+        <Access>Public</Access>
+        <Location left="85" top="458" />
         <Size width="162" height="216" />
         <Collapsed>True</Collapsed>
-        <Modifier>Abstract</Modifier>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Report</Name>
+        <Access>Public</Access>
+        <Location left="86" top="521" />
+        <Size width="162" height="216" />
+        <Collapsed>True</Collapsed>
+        <Modifier>None</Modifier>
       </Entity>
     </Entities>
     <Relationships>
@@ -50,37 +70,45 @@
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>304</X>
-          <Y>402</Y>
+          <X>272</X>
+          <Y>261</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>370</X>
-          <Y>402</Y>
+          <X>338</X>
+          <Y>261</Y>
         </BendPoint>
       </Relationship>
       <Relationship type="Generalization" first="2" second="0">
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>304</X>
-          <Y>336</Y>
+          <X>272</X>
+          <Y>195</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>377</X>
-          <Y>395</Y>
+          <X>345</X>
+          <Y>254</Y>
         </BendPoint>
       </Relationship>
       <Relationship type="Generalization" first="3" second="0">
         <StartOrientation>Horizontal</StartOrientation>
         <EndOrientation>Horizontal</EndOrientation>
         <BendPoint relativeToStartShape="True">
-          <X>307</X>
-          <Y>473</Y>
+          <X>275</X>
+          <Y>332</Y>
         </BendPoint>
         <BendPoint relativeToStartShape="False">
-          <X>377</X>
-          <Y>410</Y>
+          <X>345</X>
+          <Y>269</Y>
         </BendPoint>
+      </Relationship>
+      <Relationship type="Generalization" first="5" second="4">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="6" second="4">
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
       </Relationship>
     </Relationships>
   </ProjectItem>
