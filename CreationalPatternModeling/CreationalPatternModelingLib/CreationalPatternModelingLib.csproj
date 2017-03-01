@@ -49,16 +49,16 @@
     <Compile Include="BuilerCode\BuilderModeling\Shop.cs" />
     <Compile Include="BuilerCode\BuilderModeling\Vehicle.cs" />
     <Compile Include="BuilerCode\BuilderModeling\VehicleBuilder.cs" />
-    <Compile Include="GeneratedCode\AfricanFactory.cs" />
-    <Compile Include="GeneratedCode\AmericaFactory.cs" />
-    <Compile Include="GeneratedCode\AnimalKingdom.cs" />
-    <Compile Include="GeneratedCode\Bison.cs" />
-    <Compile Include="GeneratedCode\Carnivore.cs" />
-    <Compile Include="GeneratedCode\ContinentFactory.cs" />
-    <Compile Include="GeneratedCode\Herbivore.cs" />
-    <Compile Include="GeneratedCode\Lion.cs" />
-    <Compile Include="GeneratedCode\Wildebeest.cs" />
-    <Compile Include="GeneratedCode\Wolf.cs" />
+    <Compile Include="AbstractFactory\AfricanFactory.cs" />
+    <Compile Include="AbstractFactory\AmericaFactory.cs" />
+    <Compile Include="AbstractFactory\AnimalKingdom.cs" />
+    <Compile Include="AbstractFactory\Bison.cs" />
+    <Compile Include="AbstractFactory\Carnivore.cs" />
+    <Compile Include="AbstractFactory\ContinentFactory.cs" />
+    <Compile Include="AbstractFactory\Herbivore.cs" />
+    <Compile Include="AbstractFactory\Lion.cs" />
+    <Compile Include="AbstractFactory\Wildebeest.cs" />
+    <Compile Include="AbstractFactory\Wolf.cs" />
     <Compile Include="MainApp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
