@@ -7,8 +7,8 @@
     <ProjectGuid>{AE1BDB1C-2EBE-4A29-B735-B888015E54F5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AbstractFactoryModelingLib</RootNamespace>
-    <AssemblyName>AbstractFactoryModelingLib</AssemblyName>
+    <RootNamespace>CreationalPatterns</RootNamespace>
+    <AssemblyName>CreationalPatterns</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,7 +30,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AbstractFactoryModelingLib.MainApp</StartupObject>
+    <StartupObject>CreationalPatterns.MainApp</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

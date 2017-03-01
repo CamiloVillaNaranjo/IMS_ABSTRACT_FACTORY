@@ -1,23 +1,38 @@
-﻿using System;
+﻿using BuilderModeling.BuilderScenario;
+using System;
 
-namespace AbstractFactoryModelingLib
+namespace CreationalPatterns
 {
+    /// <summary>
+    /// MainApp startup class for Structural
+    /// Builder Design Pattern.
+    /// </summary>
     class MainApp
     {
+        /// <summary>
+        /// Entry point into console application.
+        /// </summary>
         public static void Main()
         {
-            //Create and run the African animal world.
-            ContinentFactory africa = new AfricanFactory();
-            AnimalKingdom world = new AnimalKingdom(africa);
+            VehicleBuilder builder;
 
-            world.RunFoodChain();
+            // Create shop with vehicle builders
+            Shop shop = new Shop();
 
-            //Create and run the American anmal world.
-            ContinentFactory america = new AmericaFactory();
-            world = new AnimalKingdom(america);
-            world.RunFoodChain();
+            // Construct and display vehicles
+            builder = new ScooterBuilder();
+            shop.Construct(builder);
+            builder.Vehicle.Show();
 
-            //wait for user input
+            builder = new CarBuilder();
+            shop.Construct(builder);
+            builder.Vehicle.Show();
+
+            builder = new MotorCycleBuilder();
+            shop.Construct(builder);
+            builder.Vehicle.Show();
+
+            // Wait for user
             Console.ReadKey();
 
         }
