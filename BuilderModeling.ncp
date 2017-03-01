@@ -1,0 +1,109 @@
+<Project>
+  <Name>BuilderModeling</Name>
+  <ProjectItem type="NClass.DiagramEditor.ClassDiagram.Diagram" assembly="NClass.DiagramEditor, Version=2.4.1823.0, Culture=neutral, PublicKeyToken=null">
+    <Name>BuilderScenario</Name>
+    <Language>CSharp</Language>
+    <Entities>
+      <Entity type="Class">
+        <Name>VehicleBuilder</Name>
+        <Access>Public</Access>
+        <Location left="607" top="116" />
+        <Size width="162" height="196" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">protected Vehicle vehicle</Member>
+        <Member type="Constructor">public VehicleBuilder()</Member>
+        <Member type="Property">public Vehicle Vehicle { get; set; }</Member>
+        <Member type="Method">public abstract void BuildFrame()</Member>
+        <Member type="Method">public abstract void NewMethod()</Member>
+        <Member type="Method">public abstract void BuildWheels()</Member>
+        <Member type="Method">public abstract void BuildDoors()</Member>
+        <Modifier>Abstract</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>MotorCycleBuilder</Name>
+        <Access>Public</Access>
+        <Location left="808" top="435" />
+        <Size width="162" height="216" />
+        <Collapsed>True</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Vehicle</Name>
+        <Access>Public</Access>
+        <Location left="561" top="597" />
+        <Size width="255" height="157" />
+        <Collapsed>False</Collapsed>
+        <Member type="Field">private String _vehicleType</Member>
+        <Member type="Field">private Dictionary&lt;string, string&gt; _parts</Member>
+        <Member type="Constructor">public Vehicle(string vehicleType)</Member>
+        <Member type="Method">public void Show()</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>CarBuilder</Name>
+        <Access>Public</Access>
+        <Location left="607" top="435" />
+        <Size width="162" height="216" />
+        <Collapsed>True</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>ScooterBuilder</Name>
+        <Access>Public</Access>
+        <Location left="393" top="435" />
+        <Size width="162" height="216" />
+        <Collapsed>True</Collapsed>
+        <Modifier>None</Modifier>
+      </Entity>
+      <Entity type="Class">
+        <Name>Shop</Name>
+        <Access>Public</Access>
+        <Location left="167" top="145" />
+        <Size width="272" height="96" />
+        <Collapsed>False</Collapsed>
+        <Member type="Method">public void Construct(VehicleBuilder vehicleBuilder)</Member>
+        <Modifier>None</Modifier>
+      </Entity>
+    </Entities>
+    <Relationships>
+      <Relationship type="Generalization" first="1" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="3" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Generalization" first="4" second="0">
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Association" first="5" second="0">
+        <Label>
+        </Label>
+        <StartOrientation>Horizontal</StartOrientation>
+        <EndOrientation>Horizontal</EndOrientation>
+        <Direction>Unidirectional</Direction>
+        <AssociationType>Aggregation</AssociationType>
+      </Relationship>
+      <Relationship type="Dependency" first="1" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="3" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+      <Relationship type="Dependency" first="4" second="2">
+        <Label>
+        </Label>
+        <StartOrientation>Vertical</StartOrientation>
+        <EndOrientation>Vertical</EndOrientation>
+      </Relationship>
+    </Relationships>
+  </ProjectItem>
+</Project>

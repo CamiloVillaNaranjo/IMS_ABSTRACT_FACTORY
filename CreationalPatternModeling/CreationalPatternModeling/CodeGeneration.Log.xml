@@ -6,25 +6,24 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2017-02-28T18:23:37" Importance="High" Text="Code generation or text transformation started." />
-  <Message Timestamp="2017-02-28T18:23:37" Importance="Diagnostic" Text="Name = ClassTemplate" />
-  <Message Timestamp="2017-02-28T18:23:37" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2017-02-28T18:23:37" Importance="Diagnostic" Text="ProjectPath = ..\AbstractFactoryModelingLib\AbstractFactoryModelingLib.csproj" />
-  <Message Timestamp="2017-02-28T18:23:37" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2017-02-28T18:23:37" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2017-02-28T18:23:37" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2017-02-28T18:23:37" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
-  <Message Timestamp="2017-02-28T18:23:37" Importance="Medium" Text="AbstractFactoryModeling's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'AbstractFactoryModeling::Wildebeest' -  (Class) " />
-  <Error Timestamp="2017-02-28T18:24:05" Importance="High" Text="Cannot create the following project because another project might exist in the same location, or the solution might have a project with the same name: D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\AbstractFactoryModeling\AbstractFactoryModelingLib\AbstractFactoryModelingLib.csproj" />
-  <Message Timestamp="2017-02-28T18:24:05" Importance="Diagnostic" Text="'AbstractFactoryModeling::Wildebeest' -  (Class): no file generated because the 'AppliesToElement' method of the template 'ClassTemplate.t4' evaluated to false." />
-  <Message Timestamp="2017-02-28T18:24:05" Importance="Diagnostic" Text="Name = StructTemplate" />
-  <Message Timestamp="2017-02-28T18:24:05" Importance="Diagnostic" Text="Overwrite = True" />
-  <Message Timestamp="2017-02-28T18:24:05" Importance="Diagnostic" Text="ProjectPath = ..\AbstractFactoryModelingLib\AbstractFactoryModelingLib.csproj" />
-  <Message Timestamp="2017-02-28T18:24:05" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
-  <Message Timestamp="2017-02-28T18:24:05" Importance="Diagnostic" Text="TargetName = {Name}" />
-  <Message Timestamp="2017-02-28T18:24:05" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2017-02-28T18:24:05" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
-  <Message Timestamp="2017-02-28T18:24:05" Importance="Medium" Text="AbstractFactoryModeling's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'AbstractFactoryModeling::Wildebeest' -  (Class) " />
-  <Message Timestamp="2017-02-28T18:24:05" Importance="Diagnostic" Text="'AbstractFactoryModeling::Wildebeest' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
-  <Message Timestamp="2017-02-28T18:24:05" Importance="High" Text="Code generation complete. Errors: 1. Warnings: 0." />
+  <Message Timestamp="2017-02-28T18:28:47" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2017-02-28T18:28:47" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2017-02-28T18:28:47" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-02-28T18:28:47" Importance="Diagnostic" Text="ProjectPath = ..\CreationalPatternModelingLib\CreationalPatternModelingLib.csproj" />
+  <Message Timestamp="2017-02-28T18:28:47" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-02-28T18:28:47" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-02-28T18:28:47" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-02-28T18:28:47" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2017-02-28T18:28:47" Importance="Medium" Text="AbstractFactoryModeling's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'AbstractFactoryModeling::Wildebeest' -  (Class) " />
+  <Message Timestamp="2017-02-28T18:29:02" Importance="Medium" Text="'AbstractFactoryModeling::Wildebeest' -  (Class) : success (file replaced) - D:\Yuxi\Code\Self-study\IMS_CREATIONAL_PATTERNS\CreationalPatternModeling\CreationalPatternModelingLib\GeneratedCode\Wildebeest.cs" />
+  <Message Timestamp="2017-02-28T18:29:02" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2017-02-28T18:29:02" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2017-02-28T18:29:02" Importance="Diagnostic" Text="ProjectPath = ..\CreationalPatternModelingLib\AbstractFactoryModelingLib.csproj" />
+  <Message Timestamp="2017-02-28T18:29:02" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2017-02-28T18:29:02" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2017-02-28T18:29:02" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-02-28T18:29:02" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2017-02-28T18:29:02" Importance="Medium" Text="AbstractFactoryModeling's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'AbstractFactoryModeling::Wildebeest' -  (Class) " />
+  <Message Timestamp="2017-02-28T18:29:02" Importance="Diagnostic" Text="'AbstractFactoryModeling::Wildebeest' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2017-02-28T18:29:02" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
 </Log>
