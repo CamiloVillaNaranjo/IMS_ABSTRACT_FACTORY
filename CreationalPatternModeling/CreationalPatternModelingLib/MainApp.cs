@@ -1,7 +1,7 @@
 ﻿using FactoryMethodModeling.FactoryMethod;
 using System;
 
-namespace FactoryMethodModeling
+namespace CreationalPatterns
 {
     /// <summary>
     /// MainApp startup class for Real-World 
