@@ -3,3 +3,11 @@
 ################################################################################
 
 *.manifest
+/CreationalPatternModeling/CreationalPatternModelingLib/bin/Debug/*.exe
+/CreationalPatternModeling/CreationalPatternModelingLib/bin/Debug/*.pdb
+/CreationalPatternModeling/CreationalPatternModelingLib/bin/Debug/*.manifest
+/CreationalPatternModeling/CreationalPatternModelingLib/obj/Debug/*.txt
+/CreationalPatternModeling/CreationalPatternModelingLib/obj/Debug/*.cache
+/CreationalPatternModeling/CreationalPatternModelingLib/obj/Debug/*.exe
+/CreationalPatternModeling/CreationalPatternModelingLib/obj/Debug/*.pdb
+/CreationalPatternModeling/CreationalPatternModelingLib/obj/Debug/*.cs
