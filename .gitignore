@@ -1,1 +1,23 @@
-/CreationalPatternModeling/CreationalPatternModelingLib/bin/Debug/CreationalPatterns.vshost.exe
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+Email/bin/[Dd]ebug/*.*
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
